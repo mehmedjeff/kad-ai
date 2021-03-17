@@ -14,9 +14,9 @@
         <p data-scroll data-scroll-speed="2">😬</p>
     </div>
 </div>
-            
+{{--             
             @foreach ($posts as $post)
                 <h2>{{$post->title}}</h2>
-            @endforeach
+            @endforeach --}}
     
 @endsection

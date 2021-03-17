@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $posts = \App\Models\Post::all();
+    // $posts = \App\Models\Post::all();
 
 
 
-    return view('kadfifah', ['posts' => $posts]);
+    return view('kadfifah');
 });
