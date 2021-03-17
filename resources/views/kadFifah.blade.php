@@ -1,9 +1,7 @@
 @extends('default.default')
 @section('content')
 
-<h1>Sup</h1>    
-           
-
+<h1>Sup</h1>
 <div data-scroll-container>
     <div data-scroll-section>
         <h1 data-scroll>Hey</h1>
@@ -14,9 +12,9 @@
         <p data-scroll data-scroll-speed="2">😬</p>
     </div>
 </div>
-{{--             
+{{--
             @foreach ($posts as $post)
                 <h2>{{$post->title}}</h2>
             @endforeach --}}
-    
+
 @endsection
